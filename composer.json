@@ -1,23 +1,22 @@
 {
     "name": "wtc/module-customerimport",
-    "description": "Magento2 WTC Customer Import",
+    "description": "Magento2 WTC Customer Import via Cli",
     "type": "magento2-module",
-    "version": "2.0.",
     "authors": [
         {
             "name": "rameshkumar",
             "email": "rrameshh90@gmail.com"
         }
     ],
+    "require": {
+        "php": ">=7.4",
+        "magento/framework": ">=102.0.0"
+    },
     "repositories": {
-        "rrameshh90/customerimportm2": {
+        "wtc/module-customerimport": {
             "type": "git",
             "url": "git@github.com:rrameshh90/customerImportM2.git"
         }
-    },
-    "require": {
-        "php": ">=7.4",
-        "rrameshh90/customerimportm2":"1.0"
     },
     "extra": {
         "map": [
