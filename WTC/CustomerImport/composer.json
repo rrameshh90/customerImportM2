@@ -9,14 +9,21 @@
             "email": "rrameshh90@gmail.com"
         }
     ],
-    "require": {
-        "php": ">=7.4"
-    },
     "repositories": {
-        "wtc/module-customerimport": {
-            "type": "git",
-            "url": "https://github.com/rrameshh90/customerImportM2"
+        "type": "package",
+        "package": {
+            "name": "wtc/module-customerimport",
+            "version": "1.0",
+            "source": {
+                "url": "https://github.com/rrameshh90/customerImportM2",
+                "type": "git",
+                "reference": "origin/main"
+            }
         }
+    },
+    "require": {
+        "php": ">=7.4",
+        "wtc/module-customerimport":"1.0"
     },
     "extra": {
         "map": [
