@@ -1,0 +1,33 @@
+{
+    "name": "wtc/module-customerimport",
+    "description": "Magento2 WTC Customer Import",
+    "type": "magento2-module",
+    "version": "2.0.",
+    "authors": [
+        {
+            "name": "rameshkumar",
+            "email": "rrameshh90@gmail.com"
+        }
+    ],
+    "repositories": {
+        "rrameshh90/customerimportm2": {
+            "type": "git",
+            "url": "git@github.com:rrameshh90/customerImportM2.git"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "rrameshh90/customerimportm2":"1.0"
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "WTC/CustomerImport"
+            ]
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "version":"2.4.2-p2"
+}
