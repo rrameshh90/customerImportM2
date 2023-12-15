@@ -26,6 +26,7 @@
             ]
         ]
     },
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "version":"2.4.2-p2"
 }
