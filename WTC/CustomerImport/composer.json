@@ -10,20 +10,14 @@
         }
     ],
     "repositories": {
-        "type": "package",
-        "package": {
-            "name": "wtc/module-customerimport",
-            "version": "1.0",
-            "source": {
-                "url": "https://github.com/rrameshh90/customerImportM2",
-                "type": "git",
-                "reference": "origin/main"
-            }
+        "rrameshh90/customerimportm2": {
+            "type": "git",
+            "url": "git@github.com:rrameshh90/customerImportM2.git"
         }
     },
     "require": {
         "php": ">=7.4",
-        "wtc/module-customerimport":"1.0"
+        "rrameshh90/customerimportm2":"1.0"
     },
     "extra": {
         "map": [
