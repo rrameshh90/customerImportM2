@@ -10,15 +10,7 @@ Download the module code from git https://github.com/rrameshh90/customerimport
 
 create the module under app/code/WTC/CustomerImport and move the above code to this location
 
-Enable module php bin/magento module:enable WTC_CustomerImport
-
-Apply Module changes to Magento php bin/magento setup:upgrade
-
-Compile Code to see any errors php bin/magento setup:di:compile
-
-Deploy static php bin/magento setup:static-content:deploy -f
-
-Commands
+Execute the Deployment Commands and verify the functionality 
 
 # Console Command
 customer:import:sample-csv    Import Customer ProfileCSV
